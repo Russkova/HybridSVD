@@ -6,7 +6,7 @@ from polara import get_movielens_data as get_ml_data
 from polara import get_bookcrossing_data as get_bx_data
 from polara import get_amazon_data as get_az_data
 from polara.lib.similarity import stack_features, cosine_similarity
-from polara.recommender.coldstart.models import SimilarityAggregationItemColdStart as ColdStartSimilarityDataModel
+from polara.recommender.coldstart.data import ColdSimilarityMixin as ColdStartSimilarityDataModel
 from polara.recommender.hybrid.data import IdentityDiagonalMixin, SideRelationsMixin
 
 
