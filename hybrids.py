@@ -4,7 +4,7 @@ from scipy.sparse.linalg import LinearOperator
 
 from sksparse import __version__ as sk_sp_version
 from sksparse.cholmod import cholesky as cholesky_decomp_sparse
-assert sk_sp_version >= '0.4.3'
+#assert sk_sp_version >= '0.4.3'
 SPARSE_MODE = True
 
 from polara import SVDModel
