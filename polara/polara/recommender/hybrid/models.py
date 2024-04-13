@@ -9,7 +9,7 @@ try:
 except ImportError:
     SPARSE_MODE = False
 else:
-    assert sk_sp_version >= '0.4.3'
+    assert sk_sp_version >= '0.4.13'
     SPARSE_MODE = True
     from sksparse.cholmod import cholesky as cholesky_decomp_sparse
 
